@@ -97,10 +97,12 @@ RUNFOLD
 │   ├── cart.html
 │   ├── checkout.html
 │   ├── invoice.html
-│   ├── dashboard.html
 │   │
 │   ├── style.css
 │   ├── dashboard.css
+│   ├── login.css
+│   ├── invoice.css
+│   ├── register.css
 │   │
 │   └── js
 │       ├── products.js
@@ -109,7 +111,6 @@ RUNFOLD
 │       ├── invoice.js
 │       ├── login.js
 │       ├── register.js
-│       ├── dashboard.js
 │       └── index.js
 │
 ├── backend
