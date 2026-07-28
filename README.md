@@ -144,14 +144,6 @@ RUNFOLD
 
 # ⚙ Installation
 
-## Clone Repository
-
-```bash
-git clone https://github.com/yourusername/runfold.git
-```
-
----
-
 ## Frontend
 
 Open:
