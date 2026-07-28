@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RUNFOLD Invoice</title>
+
+<link rel="stylesheet" href="invoice.css">
+
+</head>
+
+<body>
+
+<div class="invoice">
+
+    <h1>RUNFOLD</h1>
+    <h3>Order Invoice</h3>
+
+    <hr>
+
+    <p><strong>Invoice No :</strong> <span id="invoiceNo"></span></p>
+
+    <p><strong>Name :</strong> <span id="customerName"></span></p>
+
+    <p><strong>Phone :</strong> <span id="customerPhone"></span></p>
+
+    <p><strong>Address :</strong> <span id="customerAddress"></span></p>
+
+    <hr>
+
+    <h3>Products</h3>
+
+    <div id="productList"></div>
+
+    <hr>
+
+    <h2>Total : ₹<span id="total"></span></h2>
+
+    <button id="downloadBtn">
+        Download PDF
+    </button>
+
+    <button id="whatsappBtn">
+        Send To WhatsApp
+    </button>
+
+    <button onclick="window.location='index.html'">
+        Back Home
+    </button>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="js/invoice.js"></script>
+
+</body>
+</html>

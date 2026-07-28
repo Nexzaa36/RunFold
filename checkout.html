@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RUNFOLD Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="checkout-container">
+
+    <h1>Checkout</h1>
+
+    <form id="checkoutForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+        >
+
+        <input
+            type="text"
+            id="phone"
+            placeholder="Phone Number"
+            required
+        >
+
+        <textarea
+            id="address"
+            placeholder="Delivery Address"
+            required
+        ></textarea>
+
+        <h2>Total : <span id="checkoutTotal">₹0</span></h2>
+
+        <button type="submit">
+
+            Place Order
+
+        </button>
+
+    </form>
+
+</div>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

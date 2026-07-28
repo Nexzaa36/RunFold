@@ -1,0 +1,65 @@
+body{
+
+background:#111;
+
+font-family:Poppins,sans-serif;
+
+display:flex;
+
+justify-content:center;
+
+padding:40px;
+
+}
+
+.invoice{
+
+background:white;
+
+width:700px;
+
+padding:40px;
+
+border-radius:10px;
+
+}
+
+.invoice h1{
+
+text-align:center;
+
+color:#ff533d;
+
+}
+
+.invoice h3{
+
+margin:20px 0;
+
+}
+
+.invoice p{
+
+margin:10px 0;
+
+font-size:18px;
+
+}
+
+button{
+
+margin-top:30px;
+
+padding:12px 25px;
+
+background:#ff533d;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+margin-right:10px;
+
+}

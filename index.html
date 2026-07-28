@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUNFOLD</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/d5d396b496.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <div class="logo">
+            RUNFOLD
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#dis">New & Featured</a></li>
+            <li><a href="#nk">Nike</a></li>
+            <li><a href="#pm">Puma</a></li>
+            <li><a href="#add">Addidas</a></li>
+            <li><a href="#fd">Feedback</a></li>
+        </ul>
+
+        <div class="icons">
+            <!-- <a href="login.html"><i class="fa-solid fa-user"></i></a> -->
+            <div id="userArea"></div>
+            <!-- <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span id="cartCount">0</span></a> -->
+             <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span id="cartCount">0</span></a>
+        </div>
+
+    </nav>
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                SHOP WITH <br>
+                FREEDOM 
+            </h1>
+
+            <p>
+                Engineered for speed, comfort, and performance.
+                Discover the future of running with RUNFOLD.
+            </p>
+
+            <a href="#" class="btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+    <br>
+
+
+    <!-- DISCOVER -->
+
+
+    <div class="p1" id="dis">
+        <p align="right">Discover</p>
+    </div>
+
+    <!-- CARDS -->
+
+    <section class="products" id="discoverProducts">
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp16113179.jpg"alt="img1">
+                <h2>Converse</h2>
+
+                <p>₹1,200</p>
+
+                <button> Add to Cart</button>
+                
+        </div>
+        <div class="card">
+            <img src="https://wallpapercave.com/uwp/uwp4271677.jpeg" alt="img2">
+                <h2>Nike Air Jordan</h2>
+
+                <p>₹12,000</p>
+
+                <button> Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp15437188.jpg" alt="img3">
+               <h2>Canvas</h2>
+
+                <p>₹2,500</p>
+
+                <button> Add to Cart</button>
+        </section>
+    </div><br>
+
+
+    <!-- NIKE SECTION -->
+
+    <div id="nk">
+        <h1 class="tags">Nike</h1>
+        <section class="products" id="nikeProducts">
+            
+        </section>
+    </div>
+
+
+    <!-- PUMA SECTION -->
+
+
+    <div id="pm">
+        <h1 class="tags">Puma</h1>
+        <section class="products" id="pumaProducts">
+            
+        </section>
+    </div>
+
+
+    <!-- ADIDAS SECTION -->
+
+
+    <div id="add">
+        <h1 class="tags">Adidas</h1>
+        <section class="products" id="adidasProducts">
+            
+        </section>
+    </div>
+
+    <!-- FEEDBACK-->
+
+    <div id="fd">
+        <section class="feedback-section" id="feedback">
+            <div class="feedback-container">
+
+                <div class="feedback-header">
+                    <h2>RUNNER FEEDBACK</h2>
+                    <p>
+                     Real reviews from athletes, casual runners, and sneaker enthusiasts who shop with RUNFOLD.
+                    </p>
+                </div>
+
+                <!-- Review Cards -->
+                <div class="review-cards">
+                    <div class="review-card">
+                        <h3>Aman Verma</h3>
+                        <span>★★★★★</span>
+                        <p>Super lightweight and very comfortable for daily running. The design feels premium and the delivery experience was smooth.</p>
+                    </div>
+
+                    <div class="review-card">
+                        <h3>Riya Kapoor</h3>
+                        <span>★★★★★</span>
+                        <p>RUNFOLD has one of the cleanest shoe shopping experiences I’ve seen. Loved the Nike collection and overall presentation.</p>
+                    </div>
+
+                    <div class="review-card">
+                        <h3>Arjun Shah</h3>
+                        <span>★★★★☆</span>
+                        <p>Great variety across Nike, Puma, and Adidas. Easy to browse and the product sections feel very premium.</p>
+                    </div>
+                </div>
+
+                <!-- Feedback Form -->
+                <div class="feedback-box">
+                    <div class="feedback-left">
+                        <h3>Share Your Experience</h3>
+                        <p>
+                        Tell us what you loved, what we can improve, and which brand you enjoyed shopping the most.
+                        </p>
+                    </div>
+
+                    <form class="feedback-form" id="feedbackForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+
+                        <select id="brand" required>
+                        <option value="">Select Brand</option>
+                        <option>Nike</option>
+                        <option>Puma</option>
+                        <option>Adidas</option>
+                        </select>
+
+                        <select id="rating" required>
+                        <option value="">Rate Your Experience</option>
+                        <option>★★★★★ Excellent</option>
+                        <option>★★★★☆ Very Good</option>
+                        <option>★★★☆☆ Good</option>
+                        <option>★★☆☆☆ Average</option>
+                        <option>★☆☆☆☆ Poor</option>
+                        </select>
+
+                        <textarea rows="5" id="message" placeholder="Write your feedback..."></textarea>
+
+                        <button type="submit">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/feedback.js"></script>
+</body>/
+</html>
