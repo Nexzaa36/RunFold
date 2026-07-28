@@ -1,4 +1,4 @@
-<img width="1916" height="1001" alt="image" src="https://github.com/user-attachments/assets/d40ecb4e-ba6f-4331-ba64-92b91251c02e" /># 👟 RUNFOLD
+👟 RUNFOLD
 
 RUNFOLD is a Full Stack E-Commerce Shoe Store built using the MERN Stack (MongoDB, Express.js, Node.js, Vanilla JavaScript, HTML, and CSS). It allows users to browse products, register/login, add items to cart, place orders, generate invoices, download PDF bills, and submit feedback.
 
