@@ -13,7 +13,7 @@ registerForm.addEventListener("submit", async (e) => {
     try{
 
         const response = await fetch(
-            "http://localhost:5000/api/auth/register",
+            "https://run-fold-01.vercel.app/api/auth/register",
             {
 
                 method:"POST",
