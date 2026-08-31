@@ -6,7 +6,7 @@ RUNFOLD is a Full Stack E-Commerce Shoe Store built using the MERN Stack (MongoD
 🌐 Live Demo
 
 🚀 Live Website:
-https://run-fold-frontend.vercel.app
+https://run-fold-main.vercel.app
 
 RUNFOLD is deployed using Vercel with a separate frontend and backend deployment.
 ---
