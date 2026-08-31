@@ -3,7 +3,13 @@
 RUNFOLD is a Full Stack E-Commerce Shoe Store built using the MERN Stack (MongoDB, Express.js, Node.js, Vanilla JavaScript, HTML, and CSS). It allows users to browse products, register/login, add items to cart, place orders, generate invoices, download PDF bills, and submit feedback.
 
 ---
+🌐 Live Demo
 
+🚀 Live Website:
+https://run-fold-frontend.vercel.app
+
+RUNFOLD is deployed using Vercel with a separate frontend and backend deployment.
+---
 # 🚀 Features
 
 ## Authentication
