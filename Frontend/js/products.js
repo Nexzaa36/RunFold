@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api/products";
+const API = "https://run-fold-01.vercel.app/api/products";
 
 async function loadProducts() {
 
